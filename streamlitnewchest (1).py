@@ -7,9 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1vLV3n2KQbIPbuF9n7PBmvSM-AZKnURXp
 """
 
-
-!pip install opencv-python
-
 import streamlit as st
 import numpy as np
 import tensorflow as tf
