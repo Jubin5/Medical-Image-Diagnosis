@@ -16,7 +16,7 @@ from tensorflow.keras.preprocessing import image
 from PIL import Image
 
 # Load the saved model
-model = load_model("/content/ensemble_cxr_new_model.keras")
+model = "C:\Users\jubin\Downloads\ensemble_cxr_new_model.keras"
 
 # Extract VGG16 sub-model (first input branch) for Grad-CAM
 vgg_model = Model(inputs=model.input[0], outputs=model.get_layer(index=3).output)  # last conv layer of VGG
