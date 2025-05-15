@@ -16,7 +16,7 @@ from tensorflow.keras.preprocessing import image
 from PIL import Image
 
 # Load the saved model
-mode_path = r"C:\Users\jubin\Downloads\ensemble_cxr_new_model.keras"
+model_path = r"C:\Users\jubin\Downloads\ensemble_cxr_new_model.keras"
 model = load_model(model_path)
 
 # Extract VGG16 sub-model (first input branch) for Grad-CAM
